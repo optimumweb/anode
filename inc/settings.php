@@ -7,5 +7,5 @@ define('LEADS_EMAIL', '');
 define('LEADS_CC', '');
 define('GA_ID', '');
 define('GA_PROPERTY', '');
-define('GOOGLE_CONVERSION_ID', '');
+define('ADWORDS_REMARKETING_ID', '');
 define('OPTIMIZELY_PROJECT_ID', '');

@@ -7,6 +7,6 @@
 <link rel="stylesheet" href="css/vendor/foundation.min.css">
 <link rel="stylesheet" href="css/main.css">
 <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-<?php if ( defined('OPTIMIZELY_PROJECT_ID') ) : ?>
+<?php if ( defined('OPTIMIZELY_PROJECT_ID') && OPTIMIZELY_PROJECT_ID != '' ) : ?>
 <script src="//cdn.optimizely.com/js/<?php echo OPTIMIZELY_PROJECT_ID; ?>.js"></script>
 <?php endif; ?>
